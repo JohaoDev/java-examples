@@ -36,9 +36,9 @@ public class Main {
 //        System.out.println("fullName= " + person.getFullName());
 
         /*Bank Account*/
-//        BankAccount bank = new BankAccount("ZXC123", 0.00, "Johao Perlaza",
-//                "perlazajohao@gmail.com", "+593978970998");
-        BankAccount bank = new BankAccount();
+        BankAccount bank = new BankAccount("ZXC123", 0.00, "Johao Perlaza",
+                "perlazajohao@gmail.com", "+593978970998");
+//        BankAccount bank = new BankAccount();
 
         System.out.println("Balance Inicial: " + bank.getBalance());
         bank.depositFunds(100);

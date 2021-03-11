@@ -72,12 +72,12 @@ public class BankAccount {
     }
 
     public void withdrawFunds(double value) {
-        if(value < this.balance) {
+        if(this.balance - value <= 0) {
+            System.out.println("Fondos insuficientes.");
+        } else {
             this.balance -= value;
             System.out.println("Su retiro de $" + value + " dólares " + "se realizó con éxito.");
             System.out.println("Balance: " + this.balance);
-        } else {
-            System.out.println("Fondos insuficientes.");
         }
     }
 }
