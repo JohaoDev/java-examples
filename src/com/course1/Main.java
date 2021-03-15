@@ -40,7 +40,7 @@ public class Main {
                 "perlazajohao@gmail.com", "+593978970998");
 //        BankAccount bank = new BankAccount();
 
-        System.out.println("Balance Inicial: " + bank.getBalance());
+        System.out.println("Balance Initial: " + bank.getBalance());
         bank.depositFunds(100);
         bank.withdrawFunds(90);
         bank.withdrawFunds(15);

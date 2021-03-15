@@ -11,13 +11,13 @@ public class BankAccount {
         this("No Account Number", 999999.99,
                 "Default", "Default",
                 "Default");
-        System.out.println("Contructor Por Defecto");
+        System.out.println("Default Constructor");
     }
 
     public BankAccount(String accountNumber, double balance,
                        String customerName, String email,
                        String phoneNumber) {
-        System.out.println("Constructor con Datos");
+        System.out.println("Constructor with Data");
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.customerName = customerName;
@@ -73,7 +73,7 @@ public class BankAccount {
 
     public void withdrawFunds(double value) {
         if(this.balance - value <= 0) {
-            System.out.println("Fondos insuficientes.");
+            System.out.println("Insufficient Funds.");
         } else {
             this.balance -= value;
             System.out.println("Su retiro de $" + value + " dólares " + "se realizó con éxito.");
