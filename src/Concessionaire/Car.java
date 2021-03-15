@@ -1,4 +1,4 @@
-package com.course1;
+package Concessionaire;
 
 public class Car {
     private int doors;

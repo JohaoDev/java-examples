@@ -1,4 +1,4 @@
-package com.course1;
+package SimpleCalculator;
 
 public class SimpleCalculator {
     private double firstNumber;

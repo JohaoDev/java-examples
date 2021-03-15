@@ -1,4 +1,4 @@
-package com.course1;
+package Person;
 
 public class Person {
     private String firstName;
@@ -34,11 +34,7 @@ public class Person {
     }
 
     public boolean isTeen() {
-        if(this.age > 12 && this.age < 20) {
-            return true;
-        } else {
-            return false;
-        }
+        return this.age > 12 && this.age < 20;
     }
 
     public String getFullName() {

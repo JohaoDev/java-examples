@@ -1,20 +1,20 @@
-package com.course1;
+package Bank;
 
-public class BankAccount {
+public class Account {
     private String accountNumber;
     private double balance;
     private String customerName;
     private String email;
     private String phoneNumber;
 
-    public BankAccount() {
+    public Account() {
         this("No Account Number", 999999.99,
                 "Default", "Default",
                 "Default");
         System.out.println("Default Constructor");
     }
 
-    public BankAccount(String accountNumber, double balance,
+    public Account(String accountNumber, double balance,
                        String customerName, String email,
                        String phoneNumber) {
         System.out.println("Constructor with Data");
