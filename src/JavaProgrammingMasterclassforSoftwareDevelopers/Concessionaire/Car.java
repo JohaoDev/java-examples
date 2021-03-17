@@ -1,4 +1,4 @@
-package Concessionaire;
+package JavaProgrammingMasterclassforSoftwareDevelopers.Concessionaire;
 
 public class Car {
     private int doors;

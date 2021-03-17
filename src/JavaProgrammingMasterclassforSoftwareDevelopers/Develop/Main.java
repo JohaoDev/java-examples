@@ -1,4 +1,4 @@
-package Test;
+package JavaProgrammingMasterclassforSoftwareDevelopers.Develop;
 
 public class Main {
     public static void main(String[] args) {

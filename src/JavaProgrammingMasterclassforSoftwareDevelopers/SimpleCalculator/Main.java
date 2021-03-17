@@ -1,4 +1,4 @@
-package SimpleCalculator;
+package JavaProgrammingMasterclassforSoftwareDevelopers.SimpleCalculator;
 
 public class Main {
     public static void main(String[] args) {

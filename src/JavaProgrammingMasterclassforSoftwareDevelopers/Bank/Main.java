@@ -1,4 +1,4 @@
-package Bank;
+package JavaProgrammingMasterclassforSoftwareDevelopers.Bank;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,5 +10,12 @@ public class Main {
         johaoAccount.depositFunds(100);
         johaoAccount.withdrawFunds(90);
         johaoAccount.withdrawFunds(15);
+
+        VipAccount nicolasAccount = new VipAccount("Johao Nicolas",
+                150.80, "jperlaza@ec.krugercorp.com");
+
+        System.out.println(nicolasAccount.getName());
+        System.out.println(nicolasAccount.getCredit_limit());
+        System.out.println(nicolasAccount.getEmail_address());
     }
 }

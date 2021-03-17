@@ -1,4 +1,4 @@
-package Bank;
+package JavaProgrammingMasterclassforSoftwareDevelopers.Bank;
 
 public class Account {
     private String accountNumber;

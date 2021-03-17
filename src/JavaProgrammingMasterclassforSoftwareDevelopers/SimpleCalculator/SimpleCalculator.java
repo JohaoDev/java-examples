@@ -1,4 +1,4 @@
-package SimpleCalculator;
+package JavaProgrammingMasterclassforSoftwareDevelopers.SimpleCalculator;
 
 public class SimpleCalculator {
     private double firstNumber;

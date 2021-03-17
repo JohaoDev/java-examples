@@ -1,4 +1,4 @@
-package Person;
+package JavaProgrammingMasterclassforSoftwareDevelopers.Person;
 
 public class Person {
     private String firstName;
